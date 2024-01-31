@@ -7,5 +7,7 @@ public class Main {
         System.out.println("Marcus er noob");
 
         System.out.println("Mega noob");
+
+        System.out.println("Pantheon mid");
     }
 }
