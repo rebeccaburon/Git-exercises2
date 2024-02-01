@@ -7,6 +7,10 @@ public class Main {
 
         System.out.println("Mateen er noob");
 
+        //buzzFizz();
+        printNumbers(5, 20);
+    }
+    public static void buzzFizz(){
         for (int i = 1 ; i <= 200 ; i++){
             if (i % 3 == 0 && i % 5 == 0){
                 System.out.println("BuzzFizz");
@@ -17,6 +21,12 @@ public class Main {
             } else {
                 System.out.println(i);
             }
+        }
+    }
+
+    public static void printNumbers(int start, int end){
+        for (int i = start ; i <= end; i++){
+            System.out.println(i);
         }
     }
 }
