@@ -9,5 +9,9 @@ public class Main {
         System.out.println("Mega noob");
 
         System.out.println("Pantheon mid");
+
+        for (int i = 0; i < 201; i++){
+            System.out.println(i);
+        }
     }
 }
