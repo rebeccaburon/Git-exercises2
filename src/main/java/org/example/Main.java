@@ -3,11 +3,12 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Hello world!");
-
         System.out.println("Mateen er noob");
 
-        //buzzFizz();
+        buzzFizz();
+      
+        System.out.println();
+      
         printNumbers(5, 20);
     }
     public static void buzzFizz(){
